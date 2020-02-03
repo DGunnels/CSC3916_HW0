@@ -1,0 +1,79 @@
+GET https://www.googleapis.com/books/v1/volumes?q=Turing;
+
+Within Request:
+User-Agent is the requesting client ID
+accept informs about the type of data that can be sent back
+cache-control controls the caching behavior
+postman-token presents the token 
+host lists the host URL
+accept-encoding dictates the type of encoding that is acceptable on data sent back (ie. compression)
+connection keep-alive dictates how long a persistent connection should stay open
+
+Request Headers:
+User-Agent: PostmanRuntime/7.22.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: cfec4987-7663-4130-8f33-55be08af6447
+Host: www.googleapis.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Content-prefixed headers provide information (such as type, encoding, etc)
+Expire header dictates when the cached version expires
+Date displays current date
+Cache control dictates how the caching behaves
+Etag is the MD5 hash
+Server contains information about software used at origin server to handle request
+Vary determines how to match request headers to decide whether a cached response can be used
+X-content-type-options disables MIME sniffing and forces content-type
+X-frame-options dictates whether browser should be enabled to render a page in a frame, iframe, embed, or object
+X-XSS-protection enables cross-site scripting filtering
+Alt-svc lists alternate ways to reach service
+Transfer-encoding specifies type of encoding used to safely transfer
+
+Response Headers:
+Expires: Mon, 03 Feb 2020 06:54:40 GMT
+Date: Mon, 03 Feb 2020 06:54:40 GMT
+Cache-Control: private, max-age=0, must-revalidate, no-transform
+ETag: "iPPser6Mov75mJUb_EktR4oB1SI/wAzIzs3Q_jo5I2GKU2EDb8fANkw"
+Vary: Origin
+Vary: X-Origin
+Content-Type: application/json; charset=UTF-8
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+
+
+
+GET https://www.googleapis.com/books/v1/volumes/QnUPBAAAQBAJ
+
+Request Headers:
+User-Agent: PostmanRuntime/7.22.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 39cada23-79d9-4bd8-842e-ea8dbf88db9f
+Host: www.googleapis.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+Response Headers:
+Expires: Mon, 03 Feb 2020 06:54:33 GMT
+Date: Mon, 03 Feb 2020 06:54:33 GMT
+Cache-Control: private, max-age=0, must-revalidate, no-transform
+ETag: "iPPser6Mov75mJUb_EktR4oB1SI/1MLWsB8nnkiLo9VNFPpAN-SpnVE"
+Vary: Origin
+Vary: X-Origin
+Content-Type: application/json; charset=UTF-8
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+Transfer-Encoding: chunked
